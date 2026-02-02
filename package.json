@@ -8,12 +8,11 @@
     "colorscheme",
     "theme"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nantokaworks/color-scheme-provider.git"
-  },
+  "repository": "github:ichi0g0y/color-scheme-provider",
+  "bugs": "https://github.com/ichi0g0y/color-scheme-provider/issues",
+  "homepage": "https://github.com/ichi0g0y/color-scheme-provider#readme",
   "license": "MIT",
-  "author": "Yamashita, Shinichi",
+  "author": "Shinichi Yamashita",
   "type": "module",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -23,9 +22,9 @@
     "lint": "eslint ./src/*",
     "prepublish": "pnpm build"
   },
-  "prettier": "prettier-config-nantokaworks",
+  "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-nantokaworks": "^0.1.1",
+    "prettier-config-ichi0g0y": "file:../prettier-config",
     "@types/react": "^18.2.37",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.53.0",
